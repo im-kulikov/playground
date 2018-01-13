@@ -20,12 +20,6 @@ func merge(a, b <-chan int) <-chan int {
 	c := make(chan int)
 
 	go func() {
-		for i := range a {
-			fmt.Println("t", i)
-		}
-	}()
-
-	go func() {
 		defer close(c)
 		for a != nil || b != nil {
 			select {

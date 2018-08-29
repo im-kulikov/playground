@@ -1,0 +1,15 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/im-kulikov/playground/gophercon2018-performance-tuning-workshop/01-fibonacci
+BenchmarkFib20-8   	   50000	     25233 ns/op
+BenchmarkFib20-8   	   50000	     24085 ns/op
+BenchmarkFib20-8   	   50000	     25183 ns/op
+BenchmarkFib20-8   	   50000	     25730 ns/op
+BenchmarkFib20-8   	   50000	     24291 ns/op
+BenchmarkFib20-8   	   50000	     25194 ns/op
+BenchmarkFib20-8   	   50000	     24979 ns/op
+BenchmarkFib20-8   	   50000	     24216 ns/op
+BenchmarkFib20-8   	   50000	     25315 ns/op
+BenchmarkFib20-8   	   50000	     25188 ns/op
+PASS
+ok  	github.com/im-kulikov/playground/gophercon2018-performance-tuning-workshop/01-fibonacci	15.001s
